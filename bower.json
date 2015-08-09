@@ -1,7 +1,7 @@
 {
   "name": "http-header-link",
   "description": "Stringify and parse the HTTP Link Header as per RFC 5988",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
   ],
