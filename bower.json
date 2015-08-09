@@ -1,0 +1,36 @@
+{
+  "name": "http-header-link",
+  "description": "Stringify and parse the HTTP Link Header as per RFC 5988",
+  "version": "0.0.0",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
+  ],
+  "homepage": "https://github.com/ileri/http-header-link",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist",
+    "maps"
+  ],
+  "keywords": [
+    "header",
+    "headers",
+    "http",
+    "link",
+    "rfc",
+    "rfc 5988",
+    "rfc5988"
+  ],
+  "license": "MIT",
+  "main": "http-header-link.js",
+  "moduleType": [
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/http-header-link.git"
+  }
+}
