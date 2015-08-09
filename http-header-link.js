@@ -14,9 +14,9 @@ export function stringify (data, lang = 'en-US') {
     for (let rel of Object.keys(data)) {
       const hrefs = Array.isArray(data[rel]) ? data[rel] : [data[rel]]
 
-      links.push(...(hrefs.map(href => true && {
+      links.push(...hrefs.map(href => true && {
         rel, href
-      })))
+      }))
     }
   }
 
@@ -54,7 +54,6 @@ export function stringify (data, lang = 'en-US') {
               lang: val.lang
             })
           } else {
-            console.log(lang)
             encVal = encodeExtended({
               str: val,
               lang

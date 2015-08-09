@@ -1,8 +1,10 @@
-var gulp = require('gulp')
-var babel = require('gulp-babel')
-var sourcemaps = require('gulp-sourcemaps')
-var path = require('path')
-var main = path.basename(require('./package.json').main)
+/* global require */
+
+const gulp = require('gulp')
+const babel = require('gulp-babel')
+const sourcemaps = require('gulp-sourcemaps')
+const path = require('path')
+const main = path.basename(require('./package.json').main)
 
 gulp.task('build', function () {
   return gulp.src('{' + main + ',lib/**/*.js}')
@@ -13,7 +15,7 @@ gulp.task('build', function () {
 })
 
 gulp.task('test', function () {
-  var mocha = require('gulp-mocha')
+  const mocha = require('gulp-mocha')
 
   return gulp.src('test/index.js', {read: false})
     .pipe(mocha({
