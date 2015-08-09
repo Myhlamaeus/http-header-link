@@ -7,7 +7,7 @@
     "url": "https://github.com/ileri/http-header-link/issues"
   },
   "dependencies": {
-    "rfc-5987-encoding": "^0.1.0"
+    "rfc-5987-encoding": "^0.2.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",
