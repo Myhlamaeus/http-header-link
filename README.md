@@ -1,5 +1,5 @@
 # http-header-link [![Code Climate](https://codeclimate.com/github/ileri/http-header-link/badges/gpa.svg)](https://codeclimate.com/github/ileri/http-header-link) [![Build Status](https://travis-ci.org/ileri/http-header-link.svg)](https://travis-ci.org/ileri/http-header-link) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-> Stringify and parse the HTTP Link Header as per [RFC 5988](https://tools.ietf.org/html/rfc5988#section-5.3)
+> Stringify the HTTP Link Header as per [RFC 5988](https://tools.ietf.org/html/rfc5988#section-5.3)
 
 ## `stringify(obj, <optional language (default: en-US)>)`
 Stringifies the content of `obj` for usage with the `Link`-header. `obj` can be
